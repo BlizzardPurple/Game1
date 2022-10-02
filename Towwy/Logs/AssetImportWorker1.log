@@ -1,0 +1,517 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7524 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\$comding\unity\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/$comding/unity/Projects/Towwy
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+1032
+Successfully changed project path to: D:/$comding/unity/Projects/Towwy
+D:/$comding/unity/Projects/Towwy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 89.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path D:/$comding/unity/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/$comding/unity/Projects/Towwy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'D:/$comding/unity/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/$comding/unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/$comding/unity/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/$comding/unity/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/$comding/unity/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/$comding/unity/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004498 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.608 seconds
+Domain Reload Profiling:
+	ReloadAssembly (609ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (436ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015374 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\$comding\unity\Projects\Towwy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\$comding\unity\Projects\Towwy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.4 MB). Loaded Objects now: 4124.
+Memory consumption went from 213.1 MB to 211.7 MB.
+Total: 5.627500 ms (FindLiveObjects: 0.436400 ms CreateObjectMapping: 0.186300 ms MarkObjects: 4.514200 ms  DeleteObjects: 0.489400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003186 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\$comding\unity\Projects\Towwy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\$comding\unity\Projects\Towwy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3612 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 4127.
+Memory consumption went from 208.7 MB to 207.3 MB.
+Total: 6.098400 ms (FindLiveObjects: 0.515800 ms CreateObjectMapping: 0.390800 ms MarkObjects: 4.205500 ms  DeleteObjects: 0.984700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53762.049935 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Albedo.png
+  artifactKey: Guid(30e23c4143f61224a86d7e92cd73264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Albedo.png using Guid(30e23c4143f61224a86d7e92cd73264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dde52e52e322e8002ecb0c20f88f192') in 0.279327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Albedo.png
+  artifactKey: Guid(844bf0ef5f8bd4c43874ecad3c26e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Albedo.png using Guid(844bf0ef5f8bd4c43874ecad3c26e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f274e57ec021f93e4f8236b529c3cb39') in 0.043465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Albedo.png
+  artifactKey: Guid(b03abfd2f0f19a44298bd889ec706888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Albedo.png using Guid(b03abfd2f0f19a44298bd889ec706888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63e53c7a944ac10172b42b043a60686') in 0.042773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/AlbedoGolem.png
+  artifactKey: Guid(8e14ac0e081c92e419d772a166b7ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/AlbedoGolem.png using Guid(8e14ac0e081c92e419d772a166b7ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efc9e4b59c18203a778640fcf751b89') in 0.033026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png
+  artifactKey: Guid(6de25e60bb604e44aa57ebbbaaff9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png using Guid(6de25e60bb604e44aa57ebbbaaff9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1915d58e1db4cd6e2a434f8ba17227') in 0.034087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/Ambient Occlusion Map from Mesh lambert1.png
+  artifactKey: Guid(e6279cb2354670f418beb6ef438a918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/Ambient Occlusion Map from Mesh lambert1.png using Guid(e6279cb2354670f418beb6ef438a918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83177f59989ff3d9f4fe4bf282caa044') in 0.022407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png
+  artifactKey: Guid(fef97105f9e18dd48bcca337e11f7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png using Guid(fef97105f9e18dd48bcca337e11f7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5210405eab73eb76401cfad260070e13') in 0.029336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Albedo.png
+  artifactKey: Guid(40a24f21b8d76e84ea00eb5b0570852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Albedo.png using Guid(40a24f21b8d76e84ea00eb5b0570852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a41ab18505505dcc8c20de2046a6ab') in 0.026271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.800393 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/AO.png
+  artifactKey: Guid(9e45e8a36a6a4254bb5946e9b1a329bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/AO.png using Guid(9e45e8a36a6a4254bb5946e9b1a329bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021ca360a59115cd619df8e22d999268') in 0.024030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/AO.png
+  artifactKey: Guid(7f4bee4d8d425d04b84c05ca31349b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/AO.png using Guid(7f4bee4d8d425d04b84c05ca31349b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b8a924964bbbcb38d85454d22f2305') in 0.018380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/AO.png
+  artifactKey: Guid(2d474dd855d473c4e94f36c05a62d18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/AO.png using Guid(2d474dd855d473c4e94f36c05a62d18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417d1ef81a3c780de29798ffc8bacb09') in 0.019298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002786 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png
+  artifactKey: Guid(cf7cc70ea5ed3c046aec3919aa28e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png using Guid(cf7cc70ea5ed3c046aec3919aa28e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9b0350b5f004187d96a8ffccfe62ef') in 0.022318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png
+  artifactKey: Guid(393a2880b0756264b85380c4b1ed0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png using Guid(393a2880b0756264b85380c4b1ed0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5db67bff643d0304a73c35cf29e35e') in 0.022719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.056936 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Emission.png
+  artifactKey: Guid(569347c461e9fa14c99d282f4ce333ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Emission.png using Guid(569347c461e9fa14c99d282f4ce333ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ecb4b55c679fd1bb434a8573064d03') in 0.025511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Emission.png
+  artifactKey: Guid(1dcbe1db1fea154469c07d4010c28f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Emission.png using Guid(1dcbe1db1fea154469c07d4010c28f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a800743b3a711103372725da47d7b9') in 0.029502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008284 seconds.
+  path: Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/EmissionGolem.png
+  artifactKey: Guid(2c228118eb117524e9d248a4fc17de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/EmissionGolem.png using Guid(2c228118eb117524e9d248a4fc17de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6868dea813fa1e431dbd422bbbc6a4f') in 0.021808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.827122 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(0760f6a30fd4ed143a90354ff29f7969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_AlbedoTransparency.png using Guid(0760f6a30fd4ed143a90354ff29f7969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132220317c218bd35f73ccefed46ea37') in 0.027106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Emission.png
+  artifactKey: Guid(fa1a1921fc997e1489235df90219099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_Emission.png using Guid(fa1a1921fc997e1489235df90219099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f4616af071fd06b3eec82c6285fa38') in 0.026872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003095 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png
+  artifactKey: Guid(9a588cc5059a96f40b3478c86f621f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png using Guid(9a588cc5059a96f40b3478c86f621f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c06b30cc13d7cde2ed5ac215f7a1746') in 0.030303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(394b0bee2796a9344bc9b4ca37dfdac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png using Guid(394b0bee2796a9344bc9b4ca37dfdac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982437bd79262aa1cadb68a6b1697cab') in 0.030261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(7e3db3d93b6a61441a0a146003ece867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png using Guid(7e3db3d93b6a61441a0a146003ece867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf00ab29a285b3ddc34257faae397fb5') in 0.027939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/HP_Golem.png
+  artifactKey: Guid(c3b7a6b86247cb444ad8371d3c086086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/HP_Golem.png using Guid(c3b7a6b86247cb444ad8371d3c086086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1037b8139d67a3ceb2ae699ca88266a9') in 0.026585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.134390 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Metallic.png
+  artifactKey: Guid(09cc453e3a8be8b429f8d28d40e0d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Red/Metallic.png using Guid(09cc453e3a8be8b429f8d28d40e0d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0051b6b42754f6c500644016959f401') in 0.036001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Metallic.png
+  artifactKey: Guid(efb89717f0ee9244cb2d32a9ddb2914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Metallic.png using Guid(efb89717f0ee9244cb2d32a9ddb2914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f631d9b5b011cb8b7fdd4c19947e1511') in 0.035886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Monster_Orc (Troll)/Texture/monster_Roughness.png
+  artifactKey: Guid(1610e3e29f96246968c35fb3151137c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster_Orc (Troll)/Texture/monster_Roughness.png using Guid(1610e3e29f96246968c35fb3151137c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f023a01a1ed161926985856e4112664') in 0.027567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Monster_Orc (Troll)/Texture/monster_Metallic.png
+  artifactKey: Guid(124f338021c29443a913653fbe19d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster_Orc (Troll)/Texture/monster_Metallic.png using Guid(124f338021c29443a913653fbe19d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfb6d1516e15804e2079e9284bc4269') in 0.027908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/MetalSmoothness.png
+  artifactKey: Guid(c2a06b74accc9c74cbb09b52f9a9fbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonUsurper/Red/MetalSmoothness.png using Guid(c2a06b74accc9c74cbb09b52f9a9fbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a172edd27a0fdaee8fcc9817f9bba2e') in 0.020569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Normal.png
+  artifactKey: Guid(74ebcff1802210147b97eb7fe75a6aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Normal.png using Guid(74ebcff1802210147b97eb7fe75a6aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148c828928394a38c1c1025822297492') in 0.053100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Normal.png
+  artifactKey: Guid(b896dc9b97305dc46bdd7f223b258a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Normal.png using Guid(b896dc9b97305dc46bdd7f223b258a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a4bf127483c8e791e6f38c91617260') in 0.018892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Shared/Environment/Textures/PaintLines_Albedo.tif
+  artifactKey: Guid(38143a5229e9669428ed806d033bed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Textures/PaintLines_Albedo.tif using Guid(38143a5229e9669428ed806d033bed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aecbcd27f8c310c39724d68bccf0d02') in 0.016656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/MRGolem.png
+  artifactKey: Guid(356014505e5532341b63295eeada6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Legion Rock Golem PBR HP Polyart/Textures/MRGolem.png using Guid(356014505e5532341b63295eeada6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5772b96f8f1fbe9a5dcce0dd9c2a05cf') in 0.021940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradientcube.psd
+  artifactKey: Guid(9cda328e4b6954d70841a8a66f42ec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradientcube.psd using Guid(9cda328e4b6954d70841a8a66f42ec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5205ee2e72b1e8d78bc489db418f7d6') in 0.297136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201811 seconds.
+  path: Assets/EffectExamples/Magic Effects/Textures/Ramp02.png
+  artifactKey: Guid(26534f2d5894add499249fc1b8373a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Magic Effects/Textures/Ramp02.png using Guid(26534f2d5894add499249fc1b8373a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f02f19398f7380a04dd54ee1c0b5ef6') in 0.018078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038207 seconds.
+  path: Assets/EffectExamples/Magic Effects/Textures/RockNormal.tga
+  artifactKey: Guid(ceb93779c4493e346946ea2579d51f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Magic Effects/Textures/RockNormal.tga using Guid(ceb93779c4493e346946ea2579d51f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7afab5101d415a1e49da1aee21754b6') in 0.026303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026218 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Textures/SandDecalAlbedo.tif
+  artifactKey: Guid(03752e2fadc88f145aa5c8fc4f3cd0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Textures/SandDecalAlbedo.tif using Guid(03752e2fadc88f145aa5c8fc4f3cd0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f62ce94e9a0acb3e1f985c394f22da7') in 0.020911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EffectExamples/Magic Effects/Textures/SmokePuff02.png
+  artifactKey: Guid(577c1423813e21143b40ba6f80bbde2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Magic Effects/Textures/SmokePuff02.png using Guid(577c1423813e21143b40ba6f80bbde2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889e61526a384a90b06f6184707a472b') in 0.027791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff04.png
+  artifactKey: Guid(c904f5c1f19e8fc42865cf6d70b4fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff04.png using Guid(c904f5c1f19e8fc42865cf6d70b4fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88b300df191664a29b08669146a9c5a') in 0.031041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Specular.png
+  artifactKey: Guid(a125460b407d6bc4e84ab93739e0773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/Specular.png using Guid(a125460b407d6bc4e84ab93739e0773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125e6246471d28ffd739cd51d632196a') in 0.030418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Specular.png
+  artifactKey: Guid(b4dc54372ed4bf3498a8438d8abcbd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/Specular.png using Guid(b4dc54372ed4bf3498a8438d8abcbd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55034cbba0cfef4989bb789a1d985775') in 0.032568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Textures/TinyStones.png
+  artifactKey: Guid(f5f94e20533a400479359f21c26305a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Textures/TinyStones.png using Guid(f5f94e20533a400479359f21c26305a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927cb19e6e7a8afc4144c8a92ed680c9') in 0.018839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Specular.png
+  artifactKey: Guid(e834f92dadf3329498daf71575501e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/Specular.png using Guid(e834f92dadf3329498daf71575501e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1ace2c3c533abc8b569f0b7037d48b') in 0.022729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EffectExamples/Smoke & Steam Effects/Textures/wispySmoke.tif
+  artifactKey: Guid(b96c69e599825d84e985962673d1679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Smoke & Steam Effects/Textures/wispySmoke.tif using Guid(b96c69e599825d84e985962673d1679c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e0a29da6466fc5f522c73e621e2c77') in 0.040630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Textures/woodSplintersNormal.tif
+  artifactKey: Guid(937ed87ab83404042bb43da3180148b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Textures/woodSplintersNormal.tif using Guid(937ed87ab83404042bb43da3180148b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f7e982f4fdce3ef7eb1c10babd5c69') in 0.018023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Defenses/tower-defense-assets/Sprites/StandardTurretIcon_PSD.psd
+  artifactKey: Guid(2e8ad20c9f0a41f429b7c3d8f6c49f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Defenses/tower-defense-assets/Sprites/StandardTurretIcon_PSD.psd using Guid(2e8ad20c9f0a41f429b7c3d8f6c49f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a5f3abc24a504527499b1cf315515e') in 0.021395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectExamples/Water Effects/Textures/SplatAlbedo.tif
+  artifactKey: Guid(c996b36d1e7f97a41836e819231fc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Water Effects/Textures/SplatAlbedo.tif using Guid(c996b36d1e7f97a41836e819231fc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ebc0dc98b4252f02dc8642d309f8eb') in 0.017944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Textures/StoneAlbedo.tif
+  artifactKey: Guid(d6971144598309840aa5627e0797e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Textures/StoneAlbedo.tif using Guid(d6971144598309840aa5627e0797e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775c5f93844313628891f7dac5988a4e') in 0.016864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EffectExamples/Water Effects/Textures/WaterNormal.tif
+  artifactKey: Guid(5d5f4575f58c52f4dbf3d0581eba8a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Water Effects/Textures/WaterNormal.tif using Guid(5d5f4575f58c52f4dbf3d0581eba8a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0bf36878f3a3d9556766440b4d6300') in 0.021350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleAlbedo.tif
+  artifactKey: Guid(4c5f9569d875837419e6fb548cd8ad42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Weapon Effects/Textures/WoodBulletHoleAlbedo.tif using Guid(4c5f9569d875837419e6fb548cd8ad42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54777771f05375482c8612208baf2d27') in 0.016789 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
